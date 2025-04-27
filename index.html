@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Verification</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" id="validateForm">
+      <div class="container">
+        <h1>Password Verification</h1>
+        <div class="container-2">
+          <span id="nameError">Name Contains only letters</span>
+          <span id="passwordError"
+            >Password must contain 8 characters and symbol and one upper
+            case</span
+          >
+          <span id="rePasswordError">Password doesn't match</span>
+          <table>
+            <tr>
+              <td>Name:</td>
+              <td><input type="text" id="name" required /></td>
+            </tr>
+            <tr>
+              <td>Password:</td>
+              <td><input type="password" id="password" required /></td>
+            </tr>
+            <tr>
+              <td>Re-enter your password:</td>
+              <td><input type="password" id="rePassword" required /></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><button id="btn" type="submit">submit</button></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
