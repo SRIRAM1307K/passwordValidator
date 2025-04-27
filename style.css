@@ -1,5 +1,5 @@
 .container {
-  width: 30%;
+  width: 50%;
   margin: 120px auto;
   border: 2px solid black;
   text-align: center;
@@ -30,4 +30,19 @@
 }
 #btn:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: larger;
+  }
+  .container-2 table {
+    font-size: 3vw;
+  }
+  .container-2 input {
+    font-size: 2vw;
+  }
+  #btn {
+    font-size: 3vw;
+  }
 }
