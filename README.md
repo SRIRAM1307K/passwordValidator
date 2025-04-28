@@ -1,6 +1,3 @@
-Here’s a **GitHub README** you can use for your **Password Verification Form** project:
-
----
 
 # 🔒 Password Verification Form
 
